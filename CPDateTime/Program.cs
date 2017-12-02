@@ -13,7 +13,11 @@ namespace CPDateTime
             var date = DateTime.Now;
             Console.WriteLine(date.ToString());
 
+              
+
+
             Console.WriteLine("Universal Time {0}", date.ToUniversalTime().ToString());
+            Console.WriteLine("Global Time {0}", date);
             Console.ReadLine();
             Console.ReadLine();
 
