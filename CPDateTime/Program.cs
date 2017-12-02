@@ -10,6 +10,9 @@ namespace CPDateTime
     {
         static void Main(string[] args)
         {
+            var date = DateTime.Now;
+            Console.WriteLine(date.ToString());
+            Console.ReadLine();
         }
     }
 }
